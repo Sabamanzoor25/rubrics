@@ -1,0 +1,207 @@
+
+<?php  
+//export.php  
+$connect = mysqli_connect("localhost", "root", "", "rubric");
+session_start();
+if(!ISSET($_SESSION['user_Login'])){
+
+}
+$output = '';
+
+if(isset($_POST["export"]))
+{
+
+$batch=$_POST['batch'];
+$dept=$_POST['dept'];
+$year=$_POST['batch']+4;
+
+$query  = "SELECT r.project_id, r.supervisor, r.student_name,  r.seat_no, r.batch,  r.fyp_title, r.department, pr.proposal_planI,  pr.proposal_planII, pr.proposal_planIII, pr.proposal_planIV,  pr.proposal_weight , p.progress_first_planI  , p.progress_first_planII, p.progress_first_planIII,  p.progress_first_planIV,  p.progress_first_weight ,p.progress_final_planI, p.progress_final_planII, p.progress_final_planIII, p.progress_final_planIV, p.progress_final_planV, p.final_progress_weight,    e.planI,     e.planII, e.planIII, e.planIV, e.fst_weight, e.final_planI,e.final_planII, e.final_planIII, e.final_planIV, e.final_planV, e.final_weight, pr.report_planI , pr.report_planII, pr.report_planIII, pr.report_planIV, pr.report_planV, pr.report_planVI, pr.report_planVII, pr.report_planVIII, pr.report_weight
+from proposal_rubric as pr  
+INNER join rubric as r
+on r.seat_no= pr.seat_no
+INNER join progress_rubric as p
+on r.seat_no= p.seat_no
+INNER join evaluation_rubric as e
+on r.seat_no= e.seat_no where department='$dept' and batch='$batch' and supervisor = '$_SESSION[user_Login]' ORDER BY project_id ";
+
+ $result = mysqli_query($connect, $query);
+ $stmnt=$result->fetch_array();
+ if(mysqli_num_rows($result) > 0)
+ {
+   
+
+  $output .= '
+  <table class="text-center">  
+  <tr><th colspan=15> NED UNIVERSITY OF ENGINEERING AND TECHNOLOGY		<br>						
+  Department of Computer and Information Systems Engineering								<br>
+  Final Year Design Project (FYDP) Grading <br>	
+  Batch: ' .$batch.', Spring Semester' .$year.'(Semester 2)</th>
+   </tr>
+
+   <tr> <th colspan=7></th>
+                                          
+                                          <th colspan=21 class="border"> 2nd Semester  Evaluation</th>
+                                      </tr>
+                                      <tr> <th colspan=7></th>
+                                        
+                                     
+                                        <th colspan=9 class="border">Final Report</th>
+                                        <th colspan=6 class="border">Final Evaluation</th>
+                                        <th colspan=6 class="border">Final Semester progress</th>
+</tr>
+     <tr>
+     <th >Project ID</th>
+     <th >Supervisor</th>
+     <th >Student Name</th>
+     <th>Seat No.</th>
+     <th>Batch No.</th>
+     <th >Project Title</th>
+     <th >department</th>
+    
+                                            
+   
+ 
+
+
+
+
+   <th scope="row" >I<br>Literature Review <br> (4)</th>
+   <th scope="row" >II<br>Methodology<br> (4)</th>
+   <th scope="row" >III<br>Results and Discussion<br> (4)</th>
+   <th scope="row" >IV<br>Conclusions and Recommendations<br> (4)</th>
+   <th scope="row" > V<br>Relevance to SDGs<br> (4)</th>
+   <th scope="row" > VI<br>Originality<br> (4)</th>
+   <th scope="row" > VII<br>Formatting / Organization<br> (4)</th>
+   <th scope="row" > VIII<br>Technical Writing<br> (4)</th>
+   <th scope="row" class="border-right"> Weighted Average Score<br> (32)</th>
+
+
+
+     
+
+         
+   <th scope="row" >I<br>Relevance / Content  <br> (8)</th>
+   <th scope="row" >II<br>Organization and Delivery<br> (8)</th>
+   <th scope="row" >III<br>Design / Layout<br> (8)</th>
+   <th scope="row" >IV<br>Time Management<br> (8)</th>
+   <th scope="row" >V<br>Question / Answers<br> (8) </th>
+   <th scope="row" class="border-right">Weighted Average Score<br> (40) </th>
+
+  
+
+   <th scope="row" >I<br>Intellectual Contribution <br> (16)</th>
+   <th scope="row" >II<br>Attendance <br> (8)</th>
+   <th scope="row" >III<br>Coherence with group <br> (8)</th>
+   <th scope="row" >IV<br>Response to Questions<br> (8)</th>
+   <th scope="row" >V<br>Timely Report Submission<br> (8)</th>
+   <th scope="row"class="border-right">Weighted Average Score <br> (48)</th>
+
+
+
+
+
+   </tr>
+
+   <tr> 
+                                            
+                                          <th colspan=7 class="border"></th>
+                                     
+                                          <th scope="row" >PLO-2(%)</th>
+                                          <th scope="row" >PLO-3(%)</th>
+                                          <th scope="row" >PLO-3(%)</th>
+                                          <th scope="row" >PLO-12(%)</th>
+                                          <th scope="row" >PLO-7(%)</th>
+                                          <th scope="row" >PLO-8(%)</th>
+                                          <th scope="row" >PLO-10(%)</th>
+                                          <th scope="row" >PLO-10(%)</th>
+                                          <th scope="row" class="border-right"> </th>
+                                     
+                                       
+
+                                            <th scope="row" >PLO-10(%)</th>
+                                            <th scope="row" >PLO-10(%)</th>
+                                            <th scope="row" >PLO-10(%)</th>
+                                            <th scope="row" >PLO-10(%)</th>
+                                            <th scope="row" >PLO-10(%)</th>
+                                            <th scope="row" class="border-right" > </th>
+                                        
+                                          <th scope="row" >PLO-2(%)</th>
+                                           <th scope="row" >PLO-8(%)</th>
+                                           <th scope="row" >PLO-9(%)</th>
+                                           <th scope="row" >PLO-10(%)</th>
+                                           <th scope="row" >PLO-11(%)</th>
+                                           <th scope="row" class="border-right"> </th>
+    </tr>
+  
+   <tr>
+  ';
+  while($row = mysqli_fetch_array($result))
+  {
+
+   $output .= '
+    <tr>  
+                         <td>'.$row["project_id"].'</td>  
+                         <td>'.$row["supervisor"].'</td>
+                         <td>'.$row["student_name"].'</td>  
+                         <td>'.$row["seat_no"].'</td>  
+                         <td>'.$row["batch"].'</td>  
+                         <td>'.$row["fyp_title"].'</td>  
+                         <td>'.$row["department"].'</td>
+
+                  
+
+
+                         <td>'.$row["report_planI"].'</td>
+                         <td>'.$row["report_planII"].'</td>
+                         <td>'.$row["report_planIII"].'</td>
+                         <td>'.$row["report_planIV"].'</td>
+                         <td>'.$row["report_planV"].'</td>
+                         <td>'.$row["report_planVI"].'</td>
+                         <td>'.$row["report_planVII"].'</td>
+                         <td>'.$row["report_planVIII"].'</td>
+                         <td>'.$row["report_weight"].'</td>
+
+                         <td>'.$row["final_planI"].'</td>
+                         <td>'.$row["final_planII"].'</td>
+                         <td>'.$row["final_planIII"].'</td>
+                         <td>'.$row["final_planV"].'</td>
+                         <td>'.$row["final_weight"].'</td>
+
+                         <td>'.$row["progress_final_planI"].'</td>
+                         <td>'.$row["progress_final_planII"].'</td>
+                         <td>'.$row["progress_final_planIII"].'</td>
+                         <td>'.$row["progress_final_planIV"].'</td>
+                         <td>'.$row["progress_final_planV"].'</td>
+                         <td>'.$row["final_progress_weight"].'</td>
+
+
+                    </tr>
+                    
+   ';
+  }
+  
+  
+//  $filename = "batch" . $stmnt['batch'] . ".xls";
+//   $output .= '</table>';
+
+//   header('Content-Disposition: attachment; filename=\"$filename\"');
+//   header('Content-Type: application/vnd.ms-excel');
+$batch=$stmnt['batch'];
+$filename = "Batch" . $batch . ".xls";
+
+header("Content-Disposition: attachment; filename=\"$filename\"");
+header("Content-Type: application/vnd.ms-excel");
+  echo $output;
+ }
+}
+// SELECT r.seat_no, r.project_id, pr.proposal_weight, pr.report_weight, e.1st_weight, e.final_weight , p.final_proress_weight,p.first_weight
+// FROM proposal_rubric AS pr
+// JOIN rubric AS r 
+// ON pr.seat_no = r.seat_no
+// JOIN evaluation_rubric as e   
+// ON e.seat_no = r.seat_no
+// JOIN proposal_rubric as p 
+// ON p.seat_no = r.seat_no
+// where department ='cis' and batch='2019';
+?>
+
