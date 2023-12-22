@@ -563,7 +563,7 @@ $(document).ready(function(){
         }else{
           $.ajax({
             // url : "load-batch-table.php",
-            url : "../update_batch/u.php",
+            url : "../update_batch/update_batch.php",
             type : "POST",
             data : { id : id , dept:dept},
             success : function(data){
