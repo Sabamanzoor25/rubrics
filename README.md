@@ -10,8 +10,9 @@ Implementation of essential features according to project requirements.
 Features that go beyond basic requirements, adding value to the application.
 
 <img align="left" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/e9e842cc-5400-4680-8c9c-a09ee799eed9" width="250" height="200" />
-
-
+<img align="left" src="[https://github.com/Sabamanzoor25/rubrics/assets/102574980/e9e842cc-5400-4680-8c9c-a09ee799eed9](https://github.com/Sabamanzoor25/rubrics/assets/102574980/7727ece0-4f25-45ed-9259-fd25f3bc09b5)" width="250" height="200" />
+<img align="left" src="[https://github.com/Sabamanzoor25/rubrics/assets/102574980/e9e842cc-5400-4680-8c9c-a09ee799eed9](https://github.com/Sabamanzoor25/rubrics/assets/102574980/f2567a12-a63a-4cca-bd61-70ea671cec0c)" width="250" height="200" />
+<img align="left" src="[https://github.com/Sabamanzoor25/rubrics/assets/102574980/e9e842cc-5400-4680-8c9c-a09ee799eed9](https://github.com/Sabamanzoor25/rubrics/assets/102574980/dd7b40f5-a108-4621-bdb4-2fbcbd0a1e6d)" width="250" height="200" />
 
 
 
