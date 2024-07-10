@@ -8,6 +8,9 @@ Clear navigation and well-organized layout.
 Responsiveness and compatibility across different devices and browsers.
 Implementation of essential features according to project requirements.
 Features that go beyond basic requirements, adding value to the application.
+
+
+
 <img align="left" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/8e1fed17-2503-4c08-824e-31f86c32ab13" width="250" height="200" />
 
 
@@ -17,6 +20,7 @@ Features that go beyond basic requirements, adding value to the application.
 
 
 <img align="left" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/f2567a12-a63a-4cca-bd61-70ea671cec0c" width="250" height="200" />
+<br clear="left"/>
 
 
 <img align="left" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/90e47b3e-7965-4dc0-b66b-d3c9057133ba" width="250" height="200" />
