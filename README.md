@@ -10,7 +10,8 @@ Implementation of essential features according to project requirements.
 Features that go beyond basic requirements, adding value to the application.
 
 
-<img src="[https://camo.githubusercontent.com/...](https://github.com/Sabamanzoor25/rubrics/assets/102574980/e9e842cc-5400-4680-8c9c-a09ee799eed9)"? data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="[https://camo.githubusercontent.com/...](![Screenshot 2024-07-10 155138](https://github.com/Sabamanzoor25/rubrics/assets/102574980/a8f73248-682a-4415-9350-d5ddd443c2ed)"? data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+
 
 
 
