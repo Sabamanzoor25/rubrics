@@ -11,10 +11,10 @@ Features that go beyond basic requirements, adding value to the application.
 
 
 
-<img align="left" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/8e1fed17-2503-4c08-824e-31f86c32ab13" width="250" height="200" />
+<img align="right" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/8e1fed17-2503-4c08-824e-31f86c32ab13" width="250" height="200" />
 
 
-<img align="left" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/e9e842cc-5400-4680-8c9c-a09ee799eed9" width="250" height="200" />
+<img align="right" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/e9e842cc-5400-4680-8c9c-a09ee799eed9" width="250" height="200" />
 
 
 
@@ -26,10 +26,10 @@ Features that go beyond basic requirements, adding value to the application.
 <img align="left" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/90e47b3e-7965-4dc0-b66b-d3c9057133ba" width="250" height="200" />
 
 
-<img align="left" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/dd7b40f5-a108-4621-bdb4-2fbcbd0a1e6d" width="250" height="200" />
+<img align="right" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/dd7b40f5-a108-4621-bdb4-2fbcbd0a1e6d" width="250" height="200" />
 
-<img align="left" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/6da0823b-a773-4a3e-b057-e97773eb0a2d" width="250" height="200"/>
-<img align="left" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/3d468746-9fc6-4a51-bc62-05f359f7bd72" width="250" height="200" />
+
+<img align="right" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/6da0823b-a773-4a3e-b057-e97773eb0a2d" width="250" height="200"/>
 
 
 
