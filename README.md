@@ -9,6 +9,10 @@ Implementation of essential features according to project requirements.
 Features that go beyond basic requirements, adding value to the application.
 
 
+![WhatsApp Image 2024-04-19 at 6 18 43 PM (1)](https://github.com/Sabamanzoor25/rubrics/assets/102574980/b941faac-1ad1-4d57-8dc9-97d8e5bd67e6)
+
+
+
 
 
 
