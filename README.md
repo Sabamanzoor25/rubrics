@@ -9,7 +9,7 @@ Responsiveness and compatibility across different devices and browsers.
 Implementation of essential features according to project requirements.
 Features that go beyond basic requirements, adding value to the application.
 
-<img src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/e9e842cc-5400-4680-8c9c-a09ee799eed9" width="250" height="200" />
+<img align="left" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/e9e842cc-5400-4680-8c9c-a09ee799eed9" width="250" height="200" />
 
 
 
