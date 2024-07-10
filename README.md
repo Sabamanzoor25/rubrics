@@ -11,15 +11,15 @@ Features that go beyond basic requirements, adding value to the application.
 
 
 
-<img align="right" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/8e1fed17-2503-4c08-824e-31f86c32ab13" width="250" height="200" />
+<img align="left" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/8e1fed17-2503-4c08-824e-31f86c32ab13" width="250" height="200" />
 
 
-<img align="right" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/e9e842cc-5400-4680-8c9c-a09ee799eed9" width="250" height="200" />
+<img align="center" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/e9e842cc-5400-4680-8c9c-a09ee799eed9" width="250" height="200" />
 
 
 
 
-<img align="left" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/f2567a12-a63a-4cca-bd61-70ea671cec0c" width="250" height="200" />
+<img align="right" src="https://github.com/Sabamanzoor25/rubrics/assets/102574980/f2567a12-a63a-4cca-bd61-70ea671cec0c" width="250" height="200" />
 <br clear="left"/>
 
 
